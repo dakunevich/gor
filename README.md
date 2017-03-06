@@ -7,8 +7,7 @@ Docker image for the Gor traffic capture and replay utility gor
 
 **Build**
 
-    $ export GOR_VERSION=0.15.1
-    $ docker build --build-arg GOR_VERSION=$GOR_VERSION -t tag/gor:latest .
+    $ docker build -t tag/gor:latest .
 
 **Gor getting started**
 
