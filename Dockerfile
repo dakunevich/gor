@@ -1,7 +1,7 @@
 FROM alpine
-MAINTAINER Dzmitry Akunevich, d_akunevich@adamantium.net
+MAINTAINER Dzmitry Akunevich, dzmitry@akunevich.com
 
-ARG GOR_VERSION
+ENV GOR_VERSION 0.15.1
 
 RUN apk add --update -t deps wget ca-certificates 
     
