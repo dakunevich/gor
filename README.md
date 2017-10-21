@@ -7,7 +7,7 @@ Docker image for the Gor traffic capture and replay utility gor
 
 **Build**
 
-    $ docker build -t tag/gor:latest .
+    $ docker build -t tag/goreplay:latest .
 
 **Gor getting started**
 
